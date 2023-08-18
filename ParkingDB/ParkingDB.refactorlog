@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="80245843-6ca8-46d0-8976-dc5f09ebd089" ChangeDateTime="03/31/2022 03:10:33">
+    <Property Name="ElementName" Value="[dbo].[ParkingSlotEntryPointDistance].[EntryPoint]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ParkingSlotEntryPointDistance]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EntryPointId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4011a875-6a3d-4d2f-bc26-94426e50eb53" ChangeDateTime="04/01/2022 01:40:55">
+    <Property Name="ElementName" Value="[dbo].[Vehicle].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Vehicle]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlateNumber" />
+  </Operation>
+</Operations>
